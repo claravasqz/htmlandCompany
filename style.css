@@ -1,51 +1,75 @@
 .companyContainer {
     border: solid red;
     border-width: 0.2px;
-    background-color: black;
+    background-color:white;
     text-align: center;
     display:flex;
     flex-wrap:wrap;
       justify-content: space-evenly;
   }
   .company {
-    border-radius: 22px;
+    border-radius: 5px;
     font-size:22px;
-    border: solid grey;
-    margin: 20px;
+    border: solid rgba(128, 128, 128, 0.123);
+    /* margin: 10px; */
     /* width: 100%; */
-    padding: 12px;
+    /* padding: 12px; */
     justify-content: space-evenly;
-    background-color: black;
-    color: white;
-    display: flex
-    ;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+    /* display: flex */
+    
   }
   
   #com_a:hover {
-    color: white;
-    background-color: lightblue;
-    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.221);
+    /* border-radius: 50%; */
   }
   #com_b:hover {
-    color: peru;
-    background-color: navy;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.221);
   }
   #com_c:hover {
-    background-color: green;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.221);
+
   }
   #com_d:hover {
     color: white;
-    background-color: purple;
+    background-color: rgba(128, 128, 128, 0.221);   
   }
   .bizPic {
-    margin: 1em;
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    border: solid white;
+    /* margin: */
+    height: 180px;
+    width: 180px;
+    /* border: solid white; */
   }
   .Titulo {
     text-align: center;
     text-shadow: 100px;
+
+  }
+  .targetLine{
+    border: 5px solid 	#CC0000
+  }
+  .walmartLine{
+    border: 5px solid 	#0071ce;
+  }
+  .costcoLine{
+    width: 180px;
+    height:10px;
+    background: linear-gradient(to right, #E61031 50%, #005bad 50%);
+  }
+  .wholefoodsLine{
+    border: 5px solid 	 #00674b;
+  }
+  h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
 
   }
